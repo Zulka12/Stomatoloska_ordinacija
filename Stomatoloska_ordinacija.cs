@@ -224,8 +224,8 @@ class Program
         Console.Write("Unesite naziv usluge: ");
         string naziv = Console.ReadLine();
         Console.Write("Unesite cijenu usluge: ");
-        double cena = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-        ordinacija.DodajUslugu(naziv, cena);
+        double cijena = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+        ordinacija.DodajUslugu(naziv, cijena);
     }
     static void ZakaziTerminOsoblja(StomatoloskaOrdinacija ordinacija)
     {
