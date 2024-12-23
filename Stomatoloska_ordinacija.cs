@@ -141,7 +141,7 @@ class Program
     static void IzborPacijenta(StomatoloskaOrdinacija ordinacija)
     {
         Console.WriteLine("\nOpcije za pacijenta:");
-        Console.WriteLine("1. Pregled usluga i cena");
+        Console.WriteLine("1. Pregled usluga i cijena");
         Console.WriteLine("2. Zakazivanje termina");
         Console.WriteLine("3. Pregled zakazanih termina");
         Console.WriteLine("4. Otkazivanje termina");
